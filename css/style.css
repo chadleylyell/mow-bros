@@ -54,6 +54,7 @@ div#nav-menu ul li a {
 	padding: 40px 20px;
 	color: #000000;
 	text-decoration: none;
+	cursor: pointer;
 }
 
 div#nav-menu ul li a:hover {
