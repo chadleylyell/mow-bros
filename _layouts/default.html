@@ -3,14 +3,8 @@
 	{% include head.html %}
 	<body>
 		{% include header.html %}
-		<div class="banner">
-			<div class="container">
-				<p id="banner-text">Let us do your dirty work!<br></p>
-				<span id="button-cont">
-					<a href="/plan" id="plan-button">Schedule a Time</a>
-				</span>
-				<script src="js/banner.js"></script>
-			</div>
-		</div>
+		{% include banner.html %}
+		{{ content }}
+		{% include footer.html %}
 	</body>
 </html>
