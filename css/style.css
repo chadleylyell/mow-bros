@@ -75,8 +75,8 @@ div.banner p {
 	color: #ffffff;
 }
 
-div.banner span {
-	font-size: 18pt;
+div.banner span#button-cont {
+	font-size: 16pt;
 	font-weight: bold;
 	letter-spacing: 3pt;
 }
